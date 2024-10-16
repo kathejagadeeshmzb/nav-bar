@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<style>
+    .head{
+      background-color: rgb(242, 243, 244);
+      width: 100%;
+      height: 50px;
+      display: flex;
+    }
+    .dropdown-container {
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .dropdown-container:hover {
+        background-color: aqua;
+    }
+    #dropdown {
+        border: none;
+background: none;
+    }
+    .child1{
+        width: 200px;
+    }
+
+    /*.dropdown-container:hover{
+        background-color: beige;
+        width: 50%;
+        padding: 40px;
+    }*/
+</style>
+</head>
+<body>
+   <div class="head">
+      <div>
+        <img src="./download2.png" alt="image" height="50px" width="50px">
+      </div>
+
+        <div class="dropdown-container">
+            <select id="dropdown">
+                <option value="option1">tutorials</option>
+                <option value="option2">item 1</option>
+                <option value="option3">item 2</option>
+                <option value="option4">item 3</option>
+            </select>
+        </div>
+        <div class="dropdown-container">
+            <select id="dropdown">
+                <option value="option1">Exercises</option>
+                <option value="option2">item 1</option>
+                <option value="option3">item 2</option>
+                <option value="option4">item 3</option>
+            </select>
+        </div>
+        <div class="dropdown-container">
+            <select id="dropdown">
+                <option value="option1">certificates</option>
+                <option value="option2">item 1</option>
+                <option value="option3">item 2</option>
+                <option value="option4">item 3</option>
+            </select>
+        </div>
+        <div class="dropdown-container">
+            <select id="dropdown">
+                <option value="option1">services</option>
+                <option value="option2">item 1</option>
+                <option value="option3">item 2</option>
+                <option value="option4">item 3</option>
+            </select>
+        </div>
+        <div class="child2">
+            <input type="text" placeholder="search" class="child1"  >
+        </div>
+
+   </div>
+</body>
